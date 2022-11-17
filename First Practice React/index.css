@@ -1,0 +1,33 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    border-bottom: 1px solid grey;
+    box-shadow: 1px 1px 10px 10px grey;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-items > li {
+    margin: 10px;
+}
+
+.nav-logo{
+    width:60px;
+}
+
+footer {
+    background-color: grey;
+    color:white;
+    text-align: center;
+}
